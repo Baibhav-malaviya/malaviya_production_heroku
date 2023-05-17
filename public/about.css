@@ -19,12 +19,12 @@
     padding: 15px 0;
 }
 .aboutContainer div{
-    margin:10px 0px;
+    margin:10px 10px;
     padding: 2rem;
     font-size:1.3rem;
     line-height: 1.8rem;
     color: var(--secondary-color);
-    background-color: hsl(46, 90%, 88%);
+    background-color: hsla(46, 90%, 88%,5);
     border-radius: 10px;
 }
 hr{
