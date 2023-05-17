@@ -1,0 +1,37 @@
+:root{
+    --primary-color:rgba(245,245,245,1);
+    /* --primary-colorD:black; */
+    --primary-colorD:#03001C;
+    --primary-color2:#DDF7E3;
+    --secondary-color:	rgb(44, 116, 179);
+    --secondary-colorD:;
+    --secondary-color-hover:rgb(44, 116, 179,.5);
+    --secondary-color2:hsl(41, 92%, 63%);
+    --secondary-color2D:#8b8b8d;
+    --secondary-color2-hover:	rgb(244, 185, 67,.5);
+    --clr-black:black;
+    --clr-blackD:#8b8b8d;
+    --clr-white:white;
+    --primary-text-font-family:Arial, Helvetica, sans-serif;
+}
+
+.serviceContainer{
+    padding: 15px;
+}
+
+.serviceContainer ol li{
+    margin: 10px 0;
+    padding: 1.1rem;
+    list-style-type: upper-roman;
+    list-style-position: inside;
+    
+    color: var(--secondary-color);
+    font-size: 1.3rem;
+    /* font-weight: bold; */
+    line-height: 1.8rem;
+}
+.serviceContainer h2{
+    color: var(--secondary-color2);
+    padding: 15px;
+    /* font-weight: bold; */
+}
