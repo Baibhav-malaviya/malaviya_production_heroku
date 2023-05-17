@@ -32,6 +32,9 @@
     background-color: hsla(46, 90%, 88%,.5);
     border-radius: 10px; 
 }
+.serviceContainer ol li strong{
+    
+}
 .serviceContainer h2{
     color: var(--secondary-color2);
     padding: 15px;
