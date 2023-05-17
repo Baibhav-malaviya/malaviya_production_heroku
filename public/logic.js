@@ -11,14 +11,14 @@ function onClickMenu(){
 }
 
 //  function for open the alert box
-function alert(){
-    document.getElementById("alert").classList.add("alert");
-    // document.body.classList.add("blur");
-    document.getElementById("blur1").classList.add("blur");
-    document.body.style.pointerEvents = "none";
-    document.body.style.position = "fixed";
-    document.getElementById("alert").style.pointerEvents = "auto";
-}
+// function alert(){
+//     document.getElementById("alert").classList.add("alert");
+//     // document.body.classList.add("blur");
+//     document.getElementById("blur1").classList.add("blur");
+//     document.body.style.pointerEvents = "none";
+//     document.body.style.position = "fixed";
+//     document.getElementById("alert").style.pointerEvents = "auto";
+// }
 
 //  function for close the alert box
 function closse(){
