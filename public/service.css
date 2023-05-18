@@ -32,6 +32,9 @@
     background-color: hsla(46, 90%, 88%,.5);
     border-radius: 10px; 
 }
+.goDark .serviceContainer ol li{
+    color: black;
+}
 .serviceContainer ol li strong{
     
 }
