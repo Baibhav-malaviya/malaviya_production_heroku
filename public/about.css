@@ -30,6 +30,9 @@
 .goDark .aboutContainer div{
     color: black;
 }
+.brandName{
+    color: var(--secondary-color2);
+}
 hr{
     margin: auto;
     width: 70%;
