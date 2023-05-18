@@ -726,6 +726,7 @@ todo====================================HEXAGON=================================
     transform: translateY(-100px);
     box-shadow: 2px 2px 25px -10px black;
     transition: .2s;
+    overflow: hidden;
 }
 .card .middle img{
     height: 100%;
