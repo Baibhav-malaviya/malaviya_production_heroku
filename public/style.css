@@ -900,6 +900,7 @@ footer .left i{
     /* color: transparent;
     background-color: green; */
     animation: rotateAndScale 1.9s alternate infinite;
+    margin: auto 5px;
 }
 #middleIcon{
     animation: rotateAndScale2 2.1s alternate-reverse infinite;
