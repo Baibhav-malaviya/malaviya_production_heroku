@@ -65,7 +65,7 @@ function darkMode(){
         darkNum=1;
     }
 }
-
+console.log(darkNum);
 
 
 if(darkNum==1){
