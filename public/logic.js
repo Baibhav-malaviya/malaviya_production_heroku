@@ -54,7 +54,7 @@ function rotateIn(){
 
 //! =========================Function for dark mode==============================
 
-var darkNum=0;
+var darkNum=1;
 
 localStorage.setItem("darkNum", darkNum);
 
