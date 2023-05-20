@@ -767,7 +767,10 @@ todo====================================HEXAGON=================================
     background-color: var(--secondary-color2);
     padding:6px 12px;
     margin-top: 12px;
-    /* width: 10rem; */
+    position: absolute;
+    left: 50%;
+    translate: -50%;
+    bottom: 5%;
     text-transform: uppercase;
     color: white;
     border: none;
