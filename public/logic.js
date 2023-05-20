@@ -54,23 +54,13 @@ function rotateIn(){
 
 //! =========================Function for dark mode==============================
 
-var darkNum=0;
 
 
 
-document.getElementsByClassName('dark')[0].addEventListener('click', darkMode)
 
-function darkMode(){
-    if(darkNum===1){
-        darkNum=0;
-    }else{
-        darkNum=1;
-    }
-}
+// localStorage.setItem("darkNum", darkNum);
 
-localStorage.setItem("darkNum", darkNum);
 
-console.log(darkNum);
 
 
 // if(darkNum==1){
