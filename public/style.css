@@ -745,6 +745,10 @@ todo====================================HEXAGON=================================
 .card:hover .top p{
     transform: translateY(65px);
 }
+
+.card .bottom {
+    position: relative;
+}
 .card .bottom div{
     color: white;
     text-align: center;
@@ -756,7 +760,6 @@ todo====================================HEXAGON=================================
 .card .bottom p{
     text-align: justify;
     font-size: 16px;
-    position: relative;
     /* font-size: medium;
     font-weight: normal; */
     font-family: 'Times New Roman', Times, serif;
