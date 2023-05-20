@@ -19,14 +19,23 @@
     padding: 15px 0;
 }
 .aboutContainer div{
-    margin:10px 10px;
+    margin:20px 10px;
     padding: 2rem;
     font-size:1.3rem;
     line-height: 1.8rem;
     color: var(--secondary-color);
     background-color: hsla(46, 90%, 88%,.5);
     border-radius: 10px;
+   
 }
+.aboutContainer div:nth-child(odd){
+    background-image: url(/backImage.jpg);
+    background-size: cover;
+}
+/* .aboutContainer div:nth-child(2n+1){
+    background-image: url(/backImage2.jpg);
+    background-size: cover;
+} */
 .goDark .aboutContainer div{
     color: black;
 }

@@ -30,7 +30,9 @@
     /* font-weight: bold; */
     line-height: 1.8rem;
     background-color: hsla(46, 90%, 88%,.5);
-    border-radius: 10px; 
+    border-radius: 10px;
+    background-image: url(/backImage.jpg);
+        background-size: cover;
 }
 .goDark .serviceContainer ol li{
     color: black;
