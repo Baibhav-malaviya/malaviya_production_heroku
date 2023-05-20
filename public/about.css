@@ -29,7 +29,7 @@
    
 }
 .aboutContainer div:nth-child(odd){
-    background-image: url(/backImage.jpg);
+    background-image: url(public/backImage.jpg);
     background-size: cover;
 }
 /* .aboutContainer div:nth-child(2n+1){
