@@ -63,6 +63,24 @@ function darkMode(){
     }
 }
 
+if(darkNum==1){
+    let forDarkI=document.querySelectorAll(".forDarkI");
+    for(let i=0; i<forDarkI.length; i++){
+        forDarkI[i].addEventListener("click",goDarkMode)
+    }
+
+
+    let forDarkA=document.querySelectorAll(".forDarkA");
+    for(let i=0; i<forDarkA.length; i++){
+        forDarkA[i].addEventListener("click",goDarkMode)
+    }
+
+    let forDarkS=document.querySelectorAll(".forDarkS");
+    for(let i=0; i<forDarkS.length; i++){
+        forDarkS[i].addEventListener("click",goDarkMode)
+    }
+}
+
 
 function goDarkMode() {
     let circle = document.getElementsByClassName("circle");
