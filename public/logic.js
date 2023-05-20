@@ -53,13 +53,32 @@ function rotateIn(){
 }
 
 //! =========================Function for dark mode==============================
+
+let darkNum=1;
+function darkMode(){
+    if(darkNum===1){
+        darkNum=0;
+    }else{
+        darkNum=1;
+    }
+}
+
+
 function goDarkMode() {
     let circle = document.getElementsByClassName("circle");
     let header =document.querySelector("#header");
-    header.style.transition="background-color 0.3s ease-in";
-    header.classList.toggle("goDark");
     let body = document.querySelector("body");
-    body.classList.toggle("goDark");
+    header.style.transition="background-color 0.3s ease-in";
+    if(darkNum===1){
+        header.classList.add("goDark");
+        body.classList.add("goDark");
+    }else{
+        header.classList.remove("goDark");
+        body.classList.remove("goDark");
+    }
+    // header.classList.toggle("goDark");
+    
+    // body.classList.toggle("goDark");
     body.style.transition=" background-color 0.3s ease-in";
 
     //For changing the image (production_house) on going the dark mode
