@@ -1076,6 +1076,10 @@ footer .right div:nth-child(2){
         height: auto;
     }
 
+    .card .bottom button{
+        bottom: 3%;
+    }
+
 }
 @media(max-width:380px){
     html{
