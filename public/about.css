@@ -24,11 +24,11 @@
     font-size:1.3rem;
     line-height: 1.8rem;
     color: var(--secondary-color);
-    background-color: hsla(46, 90%, 88%,.5);
+    background-color: hsla(46, 90%, 88%,.7);
     border-radius: 10px;
    
 }
-.aboutContainer div:nth-child(odd){
+.aboutContainer div{
     background-image: url(public/backImage.jpg);
     background-size: cover;
 }
