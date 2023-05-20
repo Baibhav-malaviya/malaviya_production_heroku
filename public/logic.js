@@ -54,7 +54,7 @@ function rotateIn(){
 
 //! =========================Function for dark mode==============================
 
-let darkNum=1;
+let darkNum=0;
 
 document.getElementsByClassName('dark')[0].addEventListener('click', darkMode)
 
